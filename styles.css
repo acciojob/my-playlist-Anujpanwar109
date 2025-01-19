@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204);
+	font-family: Arial, sans-serif;
+	margin:0;
+}
+section{
+	margin: 10px ;
+	padding: 10px auto;
+	background-color: rgb(255, 255, 255);
+	border-radius: 8px;
+	border: 2px solid black;
+	display:flex;
+	flex-direction:column;
+	
+}
+video{
+	padding:10px
+}
+audio{
+	padding:10px
+	
+}
+h3{
+	text-align:center;
+}
+div{
+	display:flex;
+	flex-direction:column;
+}
+h2{
+	text-align:center;
+}
+h1{
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color: inherit;
+}
+ul{
+	list-style: none;
+}
