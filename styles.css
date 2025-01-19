@@ -1,43 +1,57 @@
-/*  your css code here. If applicable */
-body{
-	background-color: rgb(204, 204, 204);
-	font-family: Arial, sans-serif;
-	margin:0;
+/* Body Styles */
+body {
+    background-color: rgb(204, 204, 204); /* Background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-section{
-	margin: 10px ;
-	padding: 10px auto;
-	background-color: rgb(255, 255, 255);
-	border-radius: 8px;
-	border: 2px solid black;
-	display:flex;
-	flex-direction:column;
-	
+
+/* Main Heading Styles */
+h1 {
+    text-align: center; /* Center the main heading */
 }
-video{
-	padding:10px
+
+/* Sub Heading Styles */
+h2 {
+    text-align: center; /* Center the sub-headings */
 }
-audio{
-	padding:10px
-	
+
+/* Songs Playlist Styles */
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
 }
-h3{
-	text-align:center;
+
+ul li {
+    margin: 10px 0; /* Add some margin between list items */
 }
-div{
-	display:flex;
-	flex-direction:column;
+
+ul li a {
+    text-decoration-line: none; /* Remove underlining from the links */
+    color: inherit; /* Inherit color from parent */
+    font-size: 18px; /* Make the font size a bit larger */
 }
-h2{
-	text-align:center;
+
+/* Video and Audio Player Container Styles */
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255); /* White background */
+    padding: 15px; /* Padding around the player */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between players */
+    text-align: center; /* Center the content */
 }
-h1{
-	text-align:center;
+
+/* Styling for the video and audio elements */
+video, audio {
+    width: 100%; /* Make video and audio players fill the container width */
+    height: auto; /* Maintain aspect ratio */
 }
-a{
-	text-decoration:none;
-	color: inherit;
-}
-ul{
-	list-style: none;
+
+/* Section Padding */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255); /* White background */
+    border-radius: 8px;
+    border: 2px solid #ccc; /* Border for the section */
 }
